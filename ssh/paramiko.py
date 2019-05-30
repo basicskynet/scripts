@@ -124,7 +124,7 @@ chan.send(HELLO + TERMINATOR)
 
 chan.sendall(MAC_TABLE + TERMINATOR)
 
-chan.send(HELLO)
+chan.send(CLOSE + TERMINATOR)
 
 chan.close()
 trans.close()
